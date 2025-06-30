@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BeatWise Club - Where Music Meets Technology",
-  description: "Discover the rhythm of innovation. Experience premium audio quality with AI-powered music recommendations and personalized playlists.",
+  title: "BeatWise Club",
+  description: "Unlock the Value of Your Listening",
   icons: {
     icon: [
       {

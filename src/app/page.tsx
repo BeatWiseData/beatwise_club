@@ -16,15 +16,15 @@ export default function Home() {
                 <div>
                   <Image src="logo.svg" alt="Logo" width={50} height={50} />
                 </div>
-                <div className="flex flex-row gap-3  w-full justify-end">
-                  <button className="w-auto bg-gray-200 text-black py-2 px-4 rounded-full sm:ml-3">
-                    <p className="text-sm font-medium">X/Twitter</p>
+                <div className="flex flex-row gap-2 sm:gap-3 w-full justify-end">
+                  <button className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-2 sm:px-4 rounded-full sm:ml-3">
+                    <p className="text-[11px] sm:text-sm font-medium">X/Twitter</p>
                   </button>
-                  <button className="w-auto bg-gray-200 text-black py-2 px-4 rounded-full sm:ml-3">
-                    <p className="text-sm font-medium">Telegram</p>
+                  <button className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-2 sm:px-4 rounded-full sm:ml-3">
+                    <p className="text-[11px] sm:text-sm font-medium">Telegram</p>
                   </button>
-                  <button className="w-auto bg-gray-200 text-black py-2 px-4 rounded-full sm:ml-3">
-                    <p className="text-sm font-medium">Github</p>
+                  <button className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-2 sm:px-4 rounded-full sm:ml-3">
+                    <p className="text-[11px] sm:text-sm font-medium">GitHub</p>
                   </button>
                 </div>
               </div>
@@ -37,12 +37,12 @@ export default function Home() {
                   Vibin&apos; makes your music data work for you, not for platforms. Private. Secure. Yours.
                 </p>
               </div>
-              <div className="font-bold text-2xl text-black flex-1 flex flex-row gap-3 justify-between mt-6 mb-3">
+              <div className="font-bold text-2xl text-black flex-1 flex flex-row gap-2 justify-between mt-6 mb-3">
                 <button className="flex-1 bg-gray-200 text-black py-1 px-4 rounded-l-full rounded-r-none text-left">
-                  <p className="text-sm font-medium">Get Invitation Code</p>
+                  <p className="text-xs sm:text-sm font-medium">Invitation Code</p>
                 </button>
                 <button className="flex-1 bg-gray-200 text-black py-1 px-4 rounded-l-none rounded-r-full text-right">
-                  <p className="text-sm font-medium">Open Dashboard</p>
+                  <p className="text-xs sm:text-sm font-medium">Open Dashboard</p>
                 </button>
               </div>
             </div>

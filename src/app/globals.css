@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  
+  /* Responsive font sizing using viewport width */
+  --font-size-xs: 1.5vw;      /* 1.5% of viewport width */
+  --font-size-sm: 2vw;        /* 2% of viewport width */
+  --font-size-base: 2.5vw;    /* 2.5% of viewport width */
+  --font-size-lg: 3vw;        /* 3% of viewport width */
+  --font-size-xl: 3.5vw;      /* 3.5% of viewport width */
+  --font-size-2xl: 4vw;       /* 4% of viewport width */
+  --font-size-3xl: 5vw;       /* 5% of viewport width */
+  --font-size-4xl: 6vw;       /* 6% of viewport width */
+  --font-size-5xl: 8vw;       /* 8% of viewport width */
+  --font-size-6xl: 10vw;      /* 10% of viewport width */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  font-size: var(--font-size-base);
+}
+
+/* Video background optimizations */
+video {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Custom breakpoint for 500px */
+@media (min-width: 500px) {
+  .text-5xl-at-500 {
+    font-size: 3rem; /* text-5xl size */
+  }
+  .text-xl-at-500 {
+    font-size: 1.25rem; /* text-xl size */
+  }
+}
+
+/* Responsive text utilities using viewport width */
+.text-vw-xs { font-size: 1.5vw; }
+.text-vw-sm { font-size: 2vw; }
+.text-vw-base { font-size: 2.5vw; }
+.text-vw-lg { font-size: 3vw; }
+.text-vw-xl { font-size: 3.5vw; }
+.text-vw-2xl { font-size: 4vw; }
+.text-vw-3xl { font-size: 5vw; }
+.text-vw-4xl { font-size: 6vw; }
+.text-vw-5xl { font-size: 8vw; }
+.text-vw-6xl { font-size: 10vw; }
+
+/* With minimum and maximum sizes for better control */
+.text-vw-responsive-xs { font-size: clamp(0.75rem, 1.5vw, 1rem); }
+.text-vw-responsive-sm { font-size: clamp(0.875rem, 2vw, 1.25rem); }
+.text-vw-responsive-base { font-size: clamp(1rem, 2.5vw, 1.5rem); }
+.text-vw-responsive-lg { font-size: clamp(1.125rem, 3vw, 1.75rem); }
+.text-vw-responsive-xl { font-size: clamp(1.25rem, 3.5vw, 2rem); }
+.text-vw-responsive-2xl { font-size: clamp(1.5rem, 4vw, 2.5rem); }
+.text-vw-responsive-3xl { font-size: clamp(1.875rem, 5vw, 3rem); }
+.text-vw-responsive-4xl { font-size: clamp(2.25rem, 6vw, 3.5rem); }
+.text-vw-responsive-5xl { font-size: clamp(3rem, 8vw, 4.5rem); }
+.text-vw-responsive-6xl { font-size: clamp(3.75rem, 10vw, 5.5rem); }

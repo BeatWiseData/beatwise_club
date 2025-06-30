@@ -38,10 +38,10 @@ export default function Home() {
                 </p>
               </div>
               <div className="font-bold text-2xl text-black flex-1 flex flex-row gap-2 justify-between mt-6 mb-3">
-                <button className="flex-1 bg-gray-200 text-black py-1 px-4 rounded-l-full rounded-r-none text-left">
+                <button className="flex-1 bg-gray-200 text-black py-2 sm:py-1 px-4 rounded-l-full rounded-r-none text-left">
                   <p className="text-xs sm:text-sm font-medium">Invitation Code</p>
                 </button>
-                <button className="flex-1 bg-gray-200 text-black py-1 px-4 rounded-l-none rounded-r-full text-right">
+                <button className="flex-1 bg-gray-200 text-black py-2 sm:py-1 px-4 rounded-l-none rounded-r-full text-right">
                   <p className="text-xs sm:text-sm font-medium">Open Dashboard</p>
                 </button>
               </div>

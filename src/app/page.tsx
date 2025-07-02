@@ -14,7 +14,7 @@ export default function Home() {
             <div className="flex flex-col h-full w-full">
               <div className="font-bold text-2xl text-black flex-1 flex flex-row items-center justify-between mt-2">
                 <div>
-                  <Image src="logo.svg" alt="Logo" width={50} height={50} />
+                  <Image src="black_logo.svg" alt="Logo" width={50} height={50} />
                 </div>
                 <div className="flex flex-row gap-2 sm:gap-3 w-full justify-end" role="navigation" aria-label="Social media links">
                   <a href="https://x.com/StartVibin" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="Follow us on X/Twitter (opens in new tab)">
@@ -38,11 +38,11 @@ export default function Home() {
                 </p>
               </div>
               <div className="font-bold text-2xl text-black flex-1 flex flex-row gap-2 justify-between mt-6 mb-1" role="group" aria-label="Action buttons">
-                <button className="flex-1 bg-gray-200 text-black py-2 sm:py-1 px-4 rounded-l-full rounded-r-none text-left" aria-label="Enter invitation code">
-                  <p className="text-xs sm:text-sm font-medium">Invitation Code</p>
+                <button className="flex-1 bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-3 rounded-l-full rounded-r-none text-left" aria-label="Enter invitation code">
+                  <p className="text-[9px] sm:text-xs font-light">Invitation Code</p>
                 </button>
-                <button className="flex-1 bg-gray-200 text-black py-2 sm:py-1 px-4 rounded-l-none rounded-r-full text-right" aria-label="Open dashboard">
-                  <p className="text-xs sm:text-sm font-medium">Open Dashboard</p>
+                <button className="flex-1 bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-3 rounded-l-none rounded-r-full text-right" aria-label="Open dashboard">
+                  <p className="text-[9px] sm:text-xs font-light">Open Dashboard</p>
                 </button>
               </div>
             </div>

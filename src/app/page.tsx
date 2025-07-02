@@ -18,13 +18,13 @@ export default function Home() {
                 </div>
                 <div className="flex flex-row gap-2 sm:gap-3 w-full justify-end" role="navigation" aria-label="Social media links">
                   <a href="https://x.com/StartVibin" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="Follow us on X/Twitter (opens in new tab)">
-                    <p className="text-[9px] sm:text-xs font-light">X/Twitter</p>
+                    <p className="text-[11px] sm:text-xs font-medium">X/Twitter</p>
                   </a>
                   <a href="https://t.me/StartVibin" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="Join our Telegram channel (opens in new tab)">
-                    <p className="text-[9px] sm:text-xs font-light">Telegram</p>
+                    <p className="text-[11px] sm:text-xs font-medium">Telegram</p>
                   </a>
                   <a href="https://docs.startvibin.io/" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="View our GitHub repository (opens in new tab)">
-                    <p className="text-[9px] sm:text-xs font-light">Documentation</p>
+                    <p className="text-[11px] sm:text-xs font-medium">Documentation</p>
                   </a>
                 </div>
               </div>
@@ -39,10 +39,10 @@ export default function Home() {
               </div>
               <div className="font-bold text-2xl text-black flex-1 flex flex-row gap-2 justify-between mt-6 mb-1" role="group" aria-label="Action buttons">
                 <button className="flex-1 bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-3 rounded-l-full rounded-r-none text-left" aria-label="Enter invitation code">
-                  <p className="text-[9px] sm:text-xs font-light">Invitation Code</p>
+                  <p className="text-[11px] sm:text-xs font-medium ">Invitation Code</p>
                 </button>
                 <button className="flex-1 bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-3 rounded-l-none rounded-r-full text-right" aria-label="Open dashboard">
-                  <p className="text-[9px] sm:text-xs font-light">Open Dashboard</p>
+                  <p className="text-[11px] sm:text-xs font-medium">Open Dashboard</p>
                 </button>
               </div>
             </div>

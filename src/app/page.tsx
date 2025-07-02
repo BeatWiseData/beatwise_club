@@ -38,11 +38,11 @@ export default function Home() {
                 </p>
               </div>
               <div className="font-bold text-2xl text-black flex-1 flex flex-row gap-2 justify-between mt-6 mb-1" role="group" aria-label="Action buttons">
-                <button className="flex-1 bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-3 rounded-l-full rounded-r-none text-left" aria-label="Enter invitation code">
-                  <p className="text-[11px] sm:text-xs font-medium ">Invitation Code</p>
+                <button className="flex-1 bg-gray-200 text-black py-3 px-3 sm:py-2 sm:px-3 rounded-l-full rounded-r-none text-left" aria-label="Enter invitation code">
+                  <p className="text-[13px] sm:text-sm font-medium">Invitation Code</p>
                 </button>
-                <button className="flex-1 bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-3 rounded-l-none rounded-r-full text-right" aria-label="Open dashboard">
-                  <p className="text-[11px] sm:text-xs font-medium">Open Dashboard</p>
+                <button className="flex-1 bg-gray-200 text-black py-3 px-3 sm:py-2 sm:px-3 rounded-l-none rounded-r-full text-right" aria-label="Open dashboard">
+                  <p className="text-[13px] sm:text-sm font-medium">Open Dashboard</p>
                 </button>
               </div>
             </div>

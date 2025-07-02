@@ -17,13 +17,13 @@ export default function Home() {
                   <Image src="logo.svg" alt="Logo" width={50} height={50} />
                 </div>
                 <div className="flex flex-row gap-2 sm:gap-3 w-full justify-end">
-                  <button className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full ">
+                  <button className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full transition-all duration-200 hover:bg-gray-300 hover:scale-105 hover:shadow-md">
                     <p className="text-[11px] sm:text-sm font-bold">X/Twitter</p>
                   </button>
-                  <button className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full ">
+                  <button className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full transition-all duration-200 hover:bg-gray-300 hover:scale-105 hover:shadow-md">
                     <p className="text-[11px] sm:text-sm font-bold">Telegram</p>
                   </button>
-                  <button className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full">
+                  <button className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full transition-all duration-200 hover:bg-gray-300 hover:scale-105 hover:shadow-md">
                     <p className="text-[11px] sm:text-sm font-bold">GitHub</p>
                   </button>
                 </div>

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "StartVibin",
+  title: "Vibin' - Listen. Vibe. Own your music data",
   description: "Vibin' - Listen. Vibe. Own your music data.",
   icons: {
     icon: [

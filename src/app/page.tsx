@@ -23,8 +23,8 @@ export default function Home() {
                   <a href="https://t.me/StartVibin" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="Join our Telegram channel (opens in new tab)">
                     <p className="text-[9px] sm:text-xs font-light">Telegram</p>
                   </a>
-                  <a href="https://github.com/StartVibin" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="View our GitHub repository (opens in new tab)">
-                    <p className="text-[9px] sm:text-xs font-light">GitHub</p>
+                  <a href="https://docs.startvibin.io/" target="_blank" rel="noopener noreferrer" className="w-auto bg-gray-200 text-black py-1 px-2 sm:py-1 sm:px-2 rounded-full cursor-pointer" aria-label="View our GitHub repository (opens in new tab)">
+                    <p className="text-[9px] sm:text-xs font-light">Documentation</p>
                   </a>
                 </div>
               </div>
